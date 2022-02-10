@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Percentage and Grade </title>
+</head>
+<body>
+
+    <!-- Q2:- Create 5 variable holding marks of 5 subjects.
+    Q3:- Calculate percentage and print grades accordingly.
+-->
+    <script>
+
+        var maths=66;
+        var english=78;
+        var hindi=88;
+        var science=72;
+        var computer=95;
+
+        var total = (maths+english+hindi+science+computer);
+
+        percent = (total/500)*100;
+        console.log(percent);
+
+        if(percent>=80)
+        {
+            console.log("O Grade");
+        }
+        else if(percent>=70)
+        {
+            console.log("A Grade");
+        }
+        else if(percent>=60)
+        {
+            console.log("B Grade");
+        }
+        else if(percent>=50)
+        {
+            console.log("C Grade");
+        }
+        else{
+            console.log("You Fail!");
+        }
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>
